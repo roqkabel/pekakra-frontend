@@ -1,0 +1,98 @@
+// Module Style
+
+/* NAVIGATION */
+.search--input {
+  &:focus {
+    box-shadow: 1px 2px 5px $gray;
+    border: 1px solid rgba(0, 0, 0, 0.397) !important;
+  }
+  margin-left: 4rem;
+  width: 600px !important;
+}
+
+.navbar-nav {
+  .nav-item {
+    padding: 0.3;
+
+    .nav-link {
+      color: rgb(12, 12, 12);
+      margin-right: 1rem;
+      // font-size: 1rem;
+    }
+  }
+}
+
+// shadows
+
+.shadow-danger {
+  &:hover {
+    box-shadow: 1px 6px 10px $danger;
+  }
+  box-shadow: 1px 3px 10px $danger;
+}
+
+// btn
+.btn {
+  border-top-left-radius: 10px;
+  border-bottom-right-radius: 20px;
+}
+
+//inputs
+.form--input {
+  &:focus {
+    box-shadow: 1px 2px 5px $gray;
+    border: 1px solid rgba(0, 0, 0, 0.397) !important;
+  }
+}
+
+// cards
+
+.card {
+  .product--title {
+    opacity: 0.9;
+    &:hover {
+      opacity: 1;
+      color: darken($danger, $amount: 20%);
+    }
+  }
+  .star-rate {
+    height: 20px;
+    stroke: $warning;
+    fill: $warning;
+  }
+}
+//label
+.label {
+  text-align: right;
+  background-color: $danger;
+  color: white;
+  border-bottom-right-radius: 40px;
+}
+.label-danger {
+  background-color: $danger;
+  color: white;
+}
+.label-success {
+  background-color: $danger;
+  color: white;
+}
+
+/*Product Section */
+
+.home-section {
+  background-repeat: no-repeat;
+  // padding-bottom: 30px !important;
+}
+
+/*
+CATALOG 
+*/
+.catalog {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 0.5rem;
+  .catalog--title {
+    color: white;
+  }
+}
